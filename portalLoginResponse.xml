@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <data>
+        <name>이상근</name>
+        <gaeinNo>A0119822</gaeinNo>
+        <userId>121212</userId>
+        <uuid>00006086</uuid>
+    </data>
+    <code>2000</code>
+    <msg>helloWorld</msg>
+    <url>http://www.hyulib.com</url>
+</response>
