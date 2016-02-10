@@ -106,5 +106,15 @@
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:8.0.30" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.postgresql:postgresql:9.4-1201-jdbc41" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/kisa_seed.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
   </component>
 </module>

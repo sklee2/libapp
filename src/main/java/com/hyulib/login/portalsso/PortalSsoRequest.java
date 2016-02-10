@@ -15,7 +15,7 @@ import java.util.Random;
  */
 public class PortalSsoRequest {
     public InputStream portalLogin(String id, String password) {
-        System.setProperty("jeus.home", "./libs");  // needed for tomcat
+        System.setProperty("jeus.userInfo", "./libs");  // needed for tomcat
         Random random = new Random();
         String randomNum = String.valueOf(random.nextInt(3) + 1);
         InputStream inputStream = null;
