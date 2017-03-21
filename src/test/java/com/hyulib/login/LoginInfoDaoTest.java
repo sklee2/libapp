@@ -23,7 +23,7 @@ public class LoginInfoDaoTest {
     @Test
     public void loginInfoTest() throws Exception {
         String userId="000A011982";
-        String password = "1200";
+        String password = "0000";
         EtcLoginCheck etcLoginCheck = new EtcLoginCheck();
         try {
             System.out.println(loginInfoDao.getAuthenticatedUserData(userId, etcLoginCheck.passwordEncode(password)));

@@ -22,7 +22,7 @@ public class PortalOxmTest {
         Converter converter = ctx.getBean(Converter.class);
 
         PortalSsoRequest portalSsoRequest = new PortalSsoRequest();
-        InputStream in = portalSsoRequest.portalLogin("sklee", "hyulib1361");
+        InputStream in = portalSsoRequest.portalLogin("sklee", "0000");
         PortalLoginResponse ResponseObject = null;
 
         ResponseObject = (PortalLoginResponse) converter.doUnMarshaling(in);

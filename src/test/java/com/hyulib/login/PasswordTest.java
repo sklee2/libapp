@@ -23,7 +23,7 @@ public class PasswordTest {
     @Test
     public void testPassword() throws Exception {
         String userId="000A011982";
-        String password = "1200";
+        String password = "0000";
         EtcLoginCheck etcLoginCheck = new EtcLoginCheck();
         try {
             System.out.println(passwordCompareDao.passwordCompare(userId, etcLoginCheck.passwordEncode(password)));

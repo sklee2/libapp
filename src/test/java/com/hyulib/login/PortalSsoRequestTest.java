@@ -16,7 +16,7 @@ public class PortalSsoRequestTest {
     @Test
     public void testPortalSSO() throws IOException {
         PortalSsoRequest portalSsoRequest = new PortalSsoRequest();
-        InputStream in = portalSsoRequest.portalLogin("sklee", "hyulib1361");
+        InputStream in = portalSsoRequest.portalLogin("sklee", "0000");
 
     // response XML view
         BufferedReader br = new BufferedReader(new InputStreamReader(in));
